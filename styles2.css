@@ -1,0 +1,89 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: lightgray;
+}
+header {
+    background-color: yellow;
+}
+
+footer {
+    background-color: aqua;
+}
+
+h1 {
+    color: brown;
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+}
+
+h2 {
+    color: darkslategray;
+    font-style: italic;
+}
+ol {
+    padding: 50px;
+    margin: 50px;
+
+}
+ul {
+    list-style: circle;
+}
+a {
+    color: teal;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.special-text {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+#main-heading {
+    color: brown;
+    font-size: 24px;
+}
+a:link {
+    color: yellow;
+  }
+
+a:hover {
+    color: hotpink;
+}
+button {
+    size: 1000px;
+}
+button:hover {
+    color: aquamarine;
+}
+
+.urgent-text{
+    color: red !important;
+}
+/* Previous CSS rules */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* Descendant combinator */
+article p {
+    color: slategray;
+}
+/* Child combinator */
+article > p {
+    margin-left: 20px;
+}
+.box {
+    margin: 10px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+}
